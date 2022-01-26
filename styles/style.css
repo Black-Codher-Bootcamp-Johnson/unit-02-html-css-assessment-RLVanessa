@@ -1,0 +1,109 @@
+header {
+    background: black;
+    color: aliceblue;
+    padding: 1%;
+}
+header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+header .logo a {
+    background-image: url("images.Logo2.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 80px;
+    position: relative;
+    text-indent: -9999999999px;
+    top: -40px;
+    width: 300px;
+}
+body {
+    background: tan;
+    color: white; 
+    font-family: helvetica neue, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: aliceblue;
+    font-family: cigno;
+    left: 0;
+    line-height: 200px;
+    margin-bottom: 0;
+    text-align:left;
+    top: 50%;
+    width: 100%;
+} 
+h2 {
+    background: tan;
+    color: aliceblue;
+    font-family: cigno;
+    left: 0;
+    text-align:center;
+    top: 50%;
+    width: 100%;
+    padding: 20px, 40px, 10px 50px;
+}
+h3 {
+    color: tan;
+    left: 0;
+    line-height:200px;
+    margin-top: -109px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+section {
+    background: white;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+section div {
+    background: #8b7355;
+    font-family: anonymous pro;
+    display: inline-block;
+    margin: auto;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+} 
+section.feature-box.Skills div {
+    background: tan;
+    width: 100%;
+    margin: 1px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+    margin: 0 20px 0;
+    border-radius: 3px;
+    background-color: blanchedalmond;
+    padding: 2px;
+}
+a {
+    text-decoration: none;
+}
+a:hover { 
+    text-decoration: underline;
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+footer {
+    background: #fafafa;
+    color: black;
+    padding: 10px 20px;
+    align-items: baseline;
+    justify-content: center;
+}
